@@ -113,8 +113,8 @@ USE_I18N = True
 USE_TZ = True
 
 # Stripe settings
-STRIPE_PUBLISHABLE_KEY = 'pk_test_51Oxm0DFakhqCEW3zeIeNz9avNoFJN9ikYRJcpSzcLdneeztnofVvd9ngCprgCG7cBfyHlc54OluHrxvkxq6levAw00VC2OdKCS'
-STRIPE_SECRET_API_KEY = 'sk_test_51Oxm0DFakhqCEW3zGyfWSlsvHh7qJXDxJFmvOJnGmd1VXyjdC4eXMMl02CmwjKVrzYafayr6yYUJHnlTWhWEXp6f00qI6Z1Qye'
+STRIPE_PUBLISHABLE_KEY = 'pk_test_...'
+STRIPE_SECRET_API_KEY = 'sk_test_....'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
