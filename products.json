@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Wireless Headphones",
+        "description": "Noise-cancelling over-ear headphones with 40 hours of battery life.",
+        "price": 199.99,
+        "image": "data:image/png;base64,iVBORw0KGg..."
+    },
+    {
+        "name": "Smartphone",
+        "description": "High-end smartphone with a 6.7-inch OLED display and 128GB storage.",
+        "price": 999.99,
+        "image": null
+    },
+    {
+        "name": "Coffee Maker",
+        "description": "Automatic coffee maker with a built-in grinder and programmable settings.",
+        "price": 129.99,
+        "image": null
+    },
+    {
+        "name": "Electric Scooter",
+        "description": "Foldable electric scooter with a 25km range and LED headlights.",
+        "price": 349.99,
+        "image": null
+    },
+    {
+        "name": "Gaming Laptop",
+        "description": "15-inch gaming laptop with a high-refresh-rate display and RTX 3060 GPU.",
+        "price": 1499.99,
+        "image": null
+    },
+    {
+        "name": "Smart Watch",
+        "description": "Fitness tracker with heart rate monitoring, GPS, and built-in notifications.",
+        "price": 199.99,
+        "image": null
+    },
+    {
+        "name": "Smart Home Hub",
+        "description": "Smart home hub with voice control, security cameras, and smart lighting.",
+        "price": 399.99,
+        "image": null
+    },
+    {
+        "name": "Smart Thermostat",
+        "description": "Smart thermostat with temperature sensors, programmable schedules, and energy-saving features.",
+        "price": 299.99,
+        "image": null
+    },
+    {
+        "name": "Wireless Mouse",
+        "description": "Wireless mouse with customizable buttons and RGB lighting.",
+        "price": 49.99,
+        "image": null
+    },
+    {
+        "name": "Wireless Keyboard",
+        "description": "Wireless keyboard with touch-sensitive keys and customizable macros.",
+        "price": 79.99,
+        "image": null
+    },
+    {
+        "name": "Hp Laptop Core i5",
+        "description": "Hp laptop with core i5 processor and 8gb ram.",
+        "price": 800.00,
+        "image": null
+    },
+    {
+        "name": "Hp Laptop Core i7",
+        "description": "Hp laptop with core i7 processor and 8gb ram.",
+        "price": 1000.00,
+        "image": null
+    }
+]

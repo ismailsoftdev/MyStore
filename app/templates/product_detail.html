@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}{{ product.name }} Details{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            {% if product.image %}
+            <img src="{{ product.image_url }}" class="img-fluid rounded" alt="{{ product.name }}">
+            {% else %}
+            <img src="https://via.placeholder.com/400" class="img-fluid rounded" alt="Placeholder image">
+            {% endif %}
+        </div>
+        <div class="col-md-6">
+            <h1>{{ product.name }}</h1>
+            <p class="lead">{{ product.description }}</p>
+            <p class="h4"><strong>Price:</strong> ${{ product.price }}</p>
+            <div class="mt-4">
+                <a href="{% url 'buy_now' product.id %}" class="btn btn-primary">Buy Now</a>
+                <a href="{% url 'product_list' %}" class="btn btn-secondary">Back to Products List</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

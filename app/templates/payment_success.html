@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}Payment Successful{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="alert alert-success text-center mt-5">
+        <h1>Payment Successful!</h1>
+        <p>Thank you for your purchase. Your order has been placed successfully.</p>
+        <hr>
+        <h3>Order Details</h3>
+        <p><strong>Product:</strong> {{ order.product.name }}</p>
+        <p><strong>Quantity:</strong> {{ order.quantity }}</p>
+        <p><strong>Total Price:</strong> ${{ order.total_price }}</p>
+        <p><strong>Order ID:</strong> {{ order.id }}</p>
+        <p>We will send you an email with further instructions.</p>
+        <a href="{% url 'product-list' %}" class="btn btn-primary mt-3">Back to Store</a>
+    </div>
+</div>
+{% endblock %}
